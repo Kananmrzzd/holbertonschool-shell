@@ -1,2 +1,2 @@
 #!/bin/bash
-tr ' ' '\n' | sort | uniq -c 
+sort | uniq -c | grep -E '^\s*1\s+' | tr -s ' ' | cut -d' ' -f3-
