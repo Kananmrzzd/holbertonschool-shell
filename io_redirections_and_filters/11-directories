@@ -1,2 +1,2 @@
 #!/bin/bash
-tail -n +2 . | find . -type d | wc -l 
+ls -lRa| wc -l 
