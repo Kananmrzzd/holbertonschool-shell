@@ -1,0 +1,6 @@
+#!/bin/bash
+read var
+chmod u+x $var
+git add .
+git commit -m 'a'
+git push
